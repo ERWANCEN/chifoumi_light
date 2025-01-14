@@ -52,10 +52,9 @@ pierre.addEventListener('click', () => {
     let choixJoueur = 'pierre';
     monChoix.textContent = 'Votre choix : pierre';
 
-    let choixOrdi = choixDeOrdi();
-    choixAdverse.textContent = `Choix de l'ordinateur : ${choixOrdi}`;
+    choixAdverse.textContent = `Choix de l'ordinateur : ${choixDeOrdi()}`;
 
-    success.innerHTML = `${determinerGagnant(choixJoueur, choixOrdi)}`;
+    success.innerHTML = `${determinerGagnant(choixJoueur, choixDeOrdi())}`;
 });
 
 
@@ -67,10 +66,9 @@ ciseaux.addEventListener('click', () => {
     let choixJoueur = 'ciseaux';
     monChoix.textContent = 'Votre choix : ciseaux';
 
-    let choixOrdi = choixDeOrdi();
-    choixAdverse.textContent = `Choix de l'ordinateur : ${choixOrdi}`;
+    choixAdverse.textContent = `Choix de l'ordinateur : ${choixDeOrdi()}`;
 
-    success.innerHTML = `${determinerGagnant(choixJoueur, choixOrdi)}`;
+    success.innerHTML = `${determinerGagnant(choixJoueur, choixDeOrdi())}`;
 });
 
 
@@ -82,8 +80,7 @@ feuille.addEventListener('click', () => {
     let choixJoueur = 'feuille';
     monChoix.textContent = 'Votre choix : feuille';
 
-    let choixOrdi = choixDeOrdi();
-    choixAdverse.textContent = `Choix de l'ordinateur : ${choixOrdi}`;
+    choixAdverse.textContent = `Choix de l'ordinateur : ${choixDeOrdi()}`;
 
-    success.innerHTML = `${determinerGagnant(choixJoueur, choixOrdi)}`;
+    success.innerHTML = `${determinerGagnant(choixJoueur, choixDeOrdi())}`;
 });
