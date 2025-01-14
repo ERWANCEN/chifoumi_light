@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding: 20px;
+    font-size: 50px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+#separation {
+    height: 2px;
+    width: 90%;
+    background: black;
+}
+
+#container_boutons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-block: 3%;
+    padding-inline: 15%;
+}
+
+button {
+    padding: 2%;
+    border-collapse: collapse;
+    border: 0;
+    border-radius: 5px;
+}
+
+#pierre {
+    background: wheat;
+}
+
+#pierre:hover {
+    background: hsl(39, 77%, 73%);
+}
+
+#ciseaux {
+    background: #add8e6;
+}
+
+#ciseaux:hover {
+    background: hsl(195, 53%, 69%);
+}
+
+#feuille {
+    background: greenyellow;
+}
+
+#feuille:hover {
+    background: hsl(84, 100%, 49%);
+}
+
+#victoire {
+    width: 500px;
+    height: 50px;
+    background: green;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#egalite {
+    width: 500px;
+    height: 50px;
+    background: orange;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#defaite {
+    width: 500px;
+    height: 50px;
+    background: red;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#mon_choix {
+    text-align: center;
+}
+
+#choix_adverse {
+    text-align: center;
+}
